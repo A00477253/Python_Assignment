@@ -15,4 +15,4 @@ if uploaded_file is not None:
         plot.title('Age Histogram')
         st.pyplot(plot)
     else:
-        st.error('The uploaded file does not have the required columns.')
+        st.error('Invalid column names found')
